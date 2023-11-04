@@ -3,7 +3,7 @@ package com.example.Lab5_Concurrency.Non_Blocking_Approach;
 import org.springframework.stereotype.Service;
 
 @Service
-public class FeignService {
+public class  FeignService {
     private final TodoClient todoClient;
 
     public FeignService(TodoClient todoClient){
